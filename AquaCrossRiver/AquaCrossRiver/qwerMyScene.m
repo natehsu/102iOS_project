@@ -4,7 +4,7 @@
 //
 //  Created by FrankieJhou on 14/1/13.
 //  Copyright (c) 2014年 FrankieJhou. All rights reserved.
-//
+// github test
 
 #import "qwerMyScene.h"
 @interface qwerMyScene()
