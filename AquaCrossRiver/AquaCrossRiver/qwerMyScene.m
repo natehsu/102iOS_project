@@ -4,9 +4,9 @@
 //
 //  Created by FrankieJhou on 14/1/13.
 //  Copyright (c) 2014年 FrankieJhou. All rights reserved.
-// github test
 
 #import "qwerMyScene.h"
+
 @interface qwerMyScene()
 @property (nonatomic,strong)SKSpriteNode *background;
 @property (nonatomic,strong)SKSpriteNode *title;
@@ -17,25 +17,27 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
+        //background
         _background = [SKSpriteNode spriteNodeWithImageNamed:@"in.jpg"];
         [_background setName:@"background"];
         _background.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame));
         [self addChild:_background];
         
+        //title
         _title = [SKSpriteNode spriteNodeWithImageNamed:@"Title.png"];
         [_title setName:@"title"];
-        _title.position = CGPointMake(CGRectGetMidX(self.frame),
-                                           (CGRectGetMaxY(self.frame)-CGRectGetMidY(self.frame)/1.5));
-        [self addChild:_title];
+        _title.position = CGPointMake(CGRectGetMidX(self.frame), (CGRectGetMaxY(self.frame)-CGRectGetMidY(self.frame)/1.5));
+        [self addChild:self.title];
 
-        
-        
+        //start
         SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Courier"];
         myLabel.text = @"Start";
         myLabel.fontSize = 45;
         myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMidY(self.frame)-myLabel.fontSize*1);
+        
+        //story
         SKLabelNode *myLabel2 = [SKLabelNode labelNodeWithFontNamed:@"Courier"];
         myLabel2.text = @"Story";
         myLabel2.fontSize =  myLabel.fontSize;
@@ -61,8 +63,18 @@
         
         [forg runAction:[SKAction repeatActionForever:action]];
         
-        [self addChild:forg];
+        //[self addChild:forg];
     }
+    
+    UITouch* touch = [touches anyObject];
+    CGPoint location = [touch locationInNode:self];
+
+    /*
+    if ([_settingsBtn containsPoint:location]) {
+        UIViewController *vc = self.view.window.rootViewController;
+        [vc performSegueWithIdentifier:@"startSeque" sender:self];
+    }*/
+    
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{}
