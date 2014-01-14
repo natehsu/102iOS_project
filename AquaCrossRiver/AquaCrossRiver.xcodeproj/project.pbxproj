@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169A8FFE1884C9E700778E5B /* qwerGameview.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A8FFD1884C9E600778E5B /* qwerGameview.m */; };
+		169A90011884D3A800778E5B /* qwerStoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A90001884D3A800778E5B /* qwerStoryScene.m */; };
 		16B4BEBB1883F75700317F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBA1883F75700317F1E /* Foundation.framework */; };
 		16B4BEBD1883F75700317F1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBC1883F75700317F1E /* CoreGraphics.framework */; };
 		16B4BEBF1883F75700317F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBE1883F75700317F1E /* UIKit.framework */; };
@@ -67,7 +69,6 @@
 		16B4BF4A1883FBCF00317F1E /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF201883FBCF00317F1E /* wood2.png */; };
 		16B4BF4B1883FBCF00317F1E /* wood3.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF211883FBCF00317F1E /* wood3.png */; };
 		16B4BF4D1883FE3300317F1E /* FORTE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF4C1883FE3300317F1E /* FORTE.TTF */; };
-		43754ABC188445C000024BAF /* qwerViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43754ABB188445C000024BAF /* qwerViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		169A8FFC1884C9E600778E5B /* qwerGameview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwerGameview.h; sourceTree = "<group>"; };
+		169A8FFD1884C9E600778E5B /* qwerGameview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerGameview.m; sourceTree = "<group>"; };
+		169A8FFF1884D3A800778E5B /* qwerStoryScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwerStoryScene.h; sourceTree = "<group>"; };
+		169A90001884D3A800778E5B /* qwerStoryScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerStoryScene.m; sourceTree = "<group>"; };
 		16B4BEB71883F75700317F1E /* AquaCrossRiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaCrossRiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4BEBA1883F75700317F1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16B4BEBC1883F75700317F1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,8 +152,6 @@
 		16B4BF201883FBCF00317F1E /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
 		16B4BF211883FBCF00317F1E /* wood3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood3.png; sourceTree = "<group>"; };
 		16B4BF4C1883FE3300317F1E /* FORTE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FORTE.TTF; sourceTree = "<group>"; };
-		43754ABA188445C000024BAF /* qwerViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwerViewController2.h; sourceTree = "<group>"; };
-		43754ABB188445C000024BAF /* qwerViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +218,12 @@
 				16B4BECE1883F75700317F1E /* Main.storyboard */,
 				16B4BED11883F75700317F1E /* qwerViewController.h */,
 				16B4BED21883F75700317F1E /* qwerViewController.m */,
-				43754ABA188445C000024BAF /* qwerViewController2.h */,
-				43754ABB188445C000024BAF /* qwerViewController2.m */,
 				16B4BED41883F75700317F1E /* qwerMyScene.h */,
 				16B4BED51883F75700317F1E /* qwerMyScene.m */,
+				169A8FFC1884C9E600778E5B /* qwerGameview.h */,
+				169A8FFD1884C9E600778E5B /* qwerGameview.m */,
+				169A8FFF1884D3A800778E5B /* qwerStoryScene.h */,
+				169A90001884D3A800778E5B /* qwerStoryScene.m */,
 				16B4BEF61883FBCF00317F1E /* sound */,
 				16B4BF071883FBCF00317F1E /* source */,
 				16B4BED71883F75700317F1E /* Spaceship.png */,
@@ -457,10 +462,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B4BEC91883F75700317F1E /* main.m in Sources */,
+				169A8FFE1884C9E700778E5B /* qwerGameview.m in Sources */,
 				16B4BECD1883F75700317F1E /* qwerAppDelegate.m in Sources */,
-				43754ABC188445C000024BAF /* qwerViewController2.m in Sources */,
 				16B4BED31883F75700317F1E /* qwerViewController.m in Sources */,
 				16B4BED61883F75700317F1E /* qwerMyScene.m in Sources */,
+				169A90011884D3A800778E5B /* qwerStoryScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

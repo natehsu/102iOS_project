@@ -10,6 +10,5 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface qwerViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *btnStart;
 
 @end
