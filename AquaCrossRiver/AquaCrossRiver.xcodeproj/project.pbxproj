@@ -69,6 +69,9 @@
 		16B4BF4A1883FBCF00317F1E /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF201883FBCF00317F1E /* wood2.png */; };
 		16B4BF4B1883FBCF00317F1E /* wood3.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF211883FBCF00317F1E /* wood3.png */; };
 		16B4BF4D1883FE3300317F1E /* FORTE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF4C1883FE3300317F1E /* FORTE.TTF */; };
+		43754AC01886CB9300024BAF /* river1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABD1886CB9300024BAF /* river1.png */; };
+		43754AC11886CB9300024BAF /* river2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABE1886CB9300024BAF /* river2.png */; };
+		43754AC21886CB9300024BAF /* river3.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABF1886CB9300024BAF /* river3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +155,9 @@
 		16B4BF201883FBCF00317F1E /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
 		16B4BF211883FBCF00317F1E /* wood3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood3.png; sourceTree = "<group>"; };
 		16B4BF4C1883FE3300317F1E /* FORTE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FORTE.TTF; sourceTree = "<group>"; };
+		43754ABD1886CB9300024BAF /* river1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river1.png; sourceTree = "<group>"; };
+		43754ABE1886CB9300024BAF /* river2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river2.png; sourceTree = "<group>"; };
+		43754ABF1886CB9300024BAF /* river3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +294,9 @@
 		16B4BF071883FBCF00317F1E /* source */ = {
 			isa = PBXGroup;
 			children = (
+				43754ABD1886CB9300024BAF /* river1.png */,
+				43754ABE1886CB9300024BAF /* river2.png */,
+				43754ABF1886CB9300024BAF /* river3.png */,
 				16B4BF4C1883FE3300317F1E /* FORTE.TTF */,
 				16B4BF081883FBCF00317F1E /* BG.png */,
 				16B4BF091883FBCF00317F1E /* BLK.png */,
@@ -396,12 +405,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43754AC11886CB9300024BAF /* river2.png in Resources */,
 				16B4BF381883FBCF00317F1E /* DRBG.png in Resources */,
 				16B4BF391883FBCF00317F1E /* DRfrog.png in Resources */,
 				16B4BF2F1883FBCF00317F1E /* Three remaining.ogg in Resources */,
 				16B4BF271883FBCF00317F1E /* drop.ogg in Resources */,
 				16B4BF411883FBCF00317F1E /* in.jpg in Resources */,
 				16B4BF301883FBCF00317F1E /* Tl.ogg in Resources */,
+				43754AC01886CB9300024BAF /* river1.png in Resources */,
 				16B4BF441883FBCF00317F1E /* Title.png in Resources */,
 				16B4BF261883FBCF00317F1E /* crash.ogg in Resources */,
 				16B4BF251883FBCF00317F1E /* Black magic.ogg in Resources */,
@@ -432,6 +443,7 @@
 				16B4BF4A1883FBCF00317F1E /* wood2.png in Resources */,
 				16B4BF351883FBCF00317F1E /* bong.png in Resources */,
 				16B4BED81883F75700317F1E /* Spaceship.png in Resources */,
+				43754AC21886CB9300024BAF /* river3.png in Resources */,
 				16B4BF2C1883FBCF00317F1E /* Omg.ogg in Resources */,
 				16B4BF3C1883FBCF00317F1E /* DRwood3.png in Resources */,
 				16B4BF3B1883FBCF00317F1E /* DRwood2.png in Resources */,
