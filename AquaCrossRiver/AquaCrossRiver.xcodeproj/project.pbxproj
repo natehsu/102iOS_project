@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		169A8FFE1884C9E700778E5B /* qwerGameview.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A8FFD1884C9E600778E5B /* qwerGameview.m */; };
 		169A90011884D3A800778E5B /* qwerStoryScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A90001884D3A800778E5B /* qwerStoryScene.m */; };
+		169A90041884DE5600778E5B /* qwerGameEndScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A90031884DE5600778E5B /* qwerGameEndScene.m */; };
+		169A90061884E74600778E5B /* LoseBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 169A90051884E74600778E5B /* LoseBG.png */; };
 		16B4BEBB1883F75700317F1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBA1883F75700317F1E /* Foundation.framework */; };
 		16B4BEBD1883F75700317F1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBC1883F75700317F1E /* CoreGraphics.framework */; };
 		16B4BEBF1883F75700317F1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B4BEBE1883F75700317F1E /* UIKit.framework */; };
@@ -69,10 +71,13 @@
 		16B4BF4A1883FBCF00317F1E /* wood2.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF201883FBCF00317F1E /* wood2.png */; };
 		16B4BF4B1883FBCF00317F1E /* wood3.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF211883FBCF00317F1E /* wood3.png */; };
 		16B4BF4D1883FE3300317F1E /* FORTE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 16B4BF4C1883FE3300317F1E /* FORTE.TTF */; };
+<<<<<<< HEAD
 		43754AC01886CB9300024BAF /* river1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABD1886CB9300024BAF /* river1.png */; };
 		43754AC11886CB9300024BAF /* river2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABE1886CB9300024BAF /* river2.png */; };
 		43754AC21886CB9300024BAF /* river3.png in Resources */ = {isa = PBXBuildFile; fileRef = 43754ABF1886CB9300024BAF /* river3.png */; };
 		43754AC41886D49A00024BAF /* night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43754AC31886D49A00024BAF /* night.jpg */; };
+=======
+>>>>>>> 6a414876ce7885d84de089baba5750b485863dd0
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +95,9 @@
 		169A8FFD1884C9E600778E5B /* qwerGameview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerGameview.m; sourceTree = "<group>"; };
 		169A8FFF1884D3A800778E5B /* qwerStoryScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwerStoryScene.h; sourceTree = "<group>"; };
 		169A90001884D3A800778E5B /* qwerStoryScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerStoryScene.m; sourceTree = "<group>"; };
+		169A90021884DE5600778E5B /* qwerGameEndScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qwerGameEndScene.h; sourceTree = "<group>"; };
+		169A90031884DE5600778E5B /* qwerGameEndScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = qwerGameEndScene.m; sourceTree = "<group>"; };
+		169A90051884E74600778E5B /* LoseBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoseBG.png; sourceTree = "<group>"; };
 		16B4BEB71883F75700317F1E /* AquaCrossRiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AquaCrossRiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4BEBA1883F75700317F1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		16B4BEBC1883F75700317F1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,10 +164,13 @@
 		16B4BF201883FBCF00317F1E /* wood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood2.png; sourceTree = "<group>"; };
 		16B4BF211883FBCF00317F1E /* wood3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood3.png; sourceTree = "<group>"; };
 		16B4BF4C1883FE3300317F1E /* FORTE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FORTE.TTF; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		43754ABD1886CB9300024BAF /* river1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river1.png; sourceTree = "<group>"; };
 		43754ABE1886CB9300024BAF /* river2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river2.png; sourceTree = "<group>"; };
 		43754ABF1886CB9300024BAF /* river3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = river3.png; sourceTree = "<group>"; };
 		43754AC31886D49A00024BAF /* night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = night.jpg; sourceTree = "<group>"; };
+=======
+>>>>>>> 6a414876ce7885d84de089baba5750b485863dd0
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +243,8 @@
 				169A8FFD1884C9E600778E5B /* qwerGameview.m */,
 				169A8FFF1884D3A800778E5B /* qwerStoryScene.h */,
 				169A90001884D3A800778E5B /* qwerStoryScene.m */,
+				169A90021884DE5600778E5B /* qwerGameEndScene.h */,
+				169A90031884DE5600778E5B /* qwerGameEndScene.m */,
 				16B4BEF61883FBCF00317F1E /* sound */,
 				16B4BF071883FBCF00317F1E /* source */,
 				16B4BED71883F75700317F1E /* Spaceship.png */,
@@ -296,10 +309,13 @@
 		16B4BF071883FBCF00317F1E /* source */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				43754AC31886D49A00024BAF /* night.jpg */,
 				43754ABD1886CB9300024BAF /* river1.png */,
 				43754ABE1886CB9300024BAF /* river2.png */,
 				43754ABF1886CB9300024BAF /* river3.png */,
+=======
+>>>>>>> 6a414876ce7885d84de089baba5750b485863dd0
 				16B4BF4C1883FE3300317F1E /* FORTE.TTF */,
 				16B4BF081883FBCF00317F1E /* BG.png */,
 				16B4BF091883FBCF00317F1E /* BLK.png */,
@@ -316,6 +332,7 @@
 				16B4BF141883FBCF00317F1E /* font.png */,
 				16B4BF151883FBCF00317F1E /* frog01.png */,
 				16B4BF161883FBCF00317F1E /* frog02.png */,
+				169A90051884E74600778E5B /* LoseBG.png */,
 				16B4BF171883FBCF00317F1E /* in.jpg */,
 				16B4BF181883FBCF00317F1E /* none.png */,
 				16B4BF191883FBCF00317F1E /* poison.png */,
@@ -408,14 +425,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43754AC11886CB9300024BAF /* river2.png in Resources */,
 				16B4BF381883FBCF00317F1E /* DRBG.png in Resources */,
 				16B4BF391883FBCF00317F1E /* DRfrog.png in Resources */,
 				16B4BF2F1883FBCF00317F1E /* Three remaining.ogg in Resources */,
 				16B4BF271883FBCF00317F1E /* drop.ogg in Resources */,
 				16B4BF411883FBCF00317F1E /* in.jpg in Resources */,
 				16B4BF301883FBCF00317F1E /* Tl.ogg in Resources */,
-				43754AC01886CB9300024BAF /* river1.png in Resources */,
 				16B4BF441883FBCF00317F1E /* Title.png in Resources */,
 				16B4BF261883FBCF00317F1E /* crash.ogg in Resources */,
 				16B4BF251883FBCF00317F1E /* Black magic.ogg in Resources */,
@@ -446,12 +461,12 @@
 				16B4BF4A1883FBCF00317F1E /* wood2.png in Resources */,
 				16B4BF351883FBCF00317F1E /* bong.png in Resources */,
 				16B4BED81883F75700317F1E /* Spaceship.png in Resources */,
-				43754AC21886CB9300024BAF /* river3.png in Resources */,
 				16B4BF2C1883FBCF00317F1E /* Omg.ogg in Resources */,
 				16B4BF3C1883FBCF00317F1E /* DRwood3.png in Resources */,
 				16B4BF3B1883FBCF00317F1E /* DRwood2.png in Resources */,
 				16B4BED01883F75700317F1E /* Main.storyboard in Resources */,
 				16B4BF2D1883FBCF00317F1E /* On.ogg in Resources */,
+				169A90061884E74600778E5B /* LoseBG.png in Resources */,
 				16B4BF491883FBCF00317F1E /* wood1.png in Resources */,
 				16B4BF2B1883FBCF00317F1E /* Off.ogg in Resources */,
 				16B4BF3D1883FBCF00317F1E /* ed.jpg in Resources */,
@@ -479,6 +494,7 @@
 			files = (
 				16B4BEC91883F75700317F1E /* main.m in Sources */,
 				169A8FFE1884C9E700778E5B /* qwerGameview.m in Sources */,
+				169A90041884DE5600778E5B /* qwerGameEndScene.m in Sources */,
 				16B4BECD1883F75700317F1E /* qwerAppDelegate.m in Sources */,
 				16B4BED31883F75700317F1E /* qwerViewController.m in Sources */,
 				16B4BED61883F75700317F1E /* qwerMyScene.m in Sources */,

@@ -52,8 +52,7 @@
     }
     return self;
 }
-
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
     CGFloat strbtnXmin = _startBtn.position.x-_startBtn.frame.size.width/2;
     CGFloat strbtnXmax = _startBtn.position.x+_startBtn.frame.size.width/2;
@@ -64,10 +63,8 @@
     CGFloat stobtnXmax = _storyBtn.position.x+_storyBtn.frame.size.width/2;
     CGFloat stobtnYmin = _storyBtn.position.y-_storyBtn.frame.size.height/2;
     CGFloat stobtnYmax = _storyBtn.position.y+_storyBtn.frame.size.height/2;
-    
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
-        NSLog(@"location: %f,%f",location.x,location.y);
         if (location.x < strbtnXmax
             && location.y < strbtnYmax
             && location.x > strbtnXmin
@@ -89,8 +86,6 @@
         
     }
 }
-
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{}
 
 -(void)update:(CFTimeInterval)currentTime {
     /* Called before each frame is rendered */
